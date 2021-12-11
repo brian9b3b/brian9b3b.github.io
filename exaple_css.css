@@ -1,0 +1,87 @@
+
+	    
+   
+		 .main-menu li {
+		  float: left;
+		  border-right:1px solid #bbb;
+		}
+		
+		ul  {
+			  list-style-type: none;
+			  margin: 5;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: 		#FFF8D7;
+			}
+		
+		
+		
+		
+		.main-menu li a {
+		     display: block;
+			 color: black;
+			 text-align: center;
+			 padding: 10px 20px;
+			 text-decoration: none;
+		}
+		.city{
+		color: blue;
+	}
+	.main-menu li a:hover {
+  background-color: #01B468;
+}
+   #page{
+	  box-sizing: border-box;  
+	  height:100%;
+      background-color: 		#FFF4C1;
+   }
+   body{
+    background-color: 		#FFF8D7;
+   }
+
+  #content{
+	 box-sizing: border-box;  
+	 height:800px;
+	 
+	 overflow: scroll;
+  }
+ /* Style the search field */
+ form.example button {
+  float: right;
+  width: 4%;
+  padding: 12px;
+  background: #2196F3;
+  color: white;
+  font-size: 5px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+form.example input[type=text] {
+  padding: 12px;
+  font-size: 5px;
+  border: 1px solid grey;
+  float: right;
+  width: 8%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer { 
+text-align: center;
+background-color:	#EA7500;
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+       @import url(exaple_css.css);
+</style>
+<script type="text/javascript">
+    $(document).ready((function(){
+        /*公共部分
+         * 導航欄
+         * footer CopyRight
+         */
+        $(".headerpage").load("header.html");
+        
+    });
+</script>
+<script>
+	function myFunction() {
+	  var x=document.getElementsByClassName("MYTE");
+	   x[0].style.display = "none";
+	  /*for (var i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+		
+	  }*/
+	  /*for (var j = 0; j < y.length; j++) {
+		y[i].style.display = "block";
+		
+	  }*/
+	}
+	function recovery() {
+	  var x=document.getElementsByClassName("MYTE");
+	  x[0].style.display = "block";
+	  /*var y=document.getElementsByClassName("city2");
+	  y.style.display = "none";*/
+	  /*for (var i = 0; i < x.length; i++) {
+		x[i].style.display = "revert";
+	  }*/
+	  
+	}
+
+</script>
+
+
+		  
+</head>
+<body>
+<div class="headerpage"></div>
+<div class="header" style="text-align:center">
+	<img src="suns.jfif" alt="替代文字一" title="範例圖片一" width="1200px" height="500px">
+	
+    
+		
+		
+			
+				<ul class="main-menu">
+				<li><a href="https://brian9b3b.github.io/">Home</a></li>
+				<li><a href="BRIANLEE.pdf" download target="_blank">下載履歷</a></li>
+				<li><a href="https://github.com/brian9b3b">github</a></li>
+				<li><a href="#">About</a></li>
+				
+				  <form class="example" action="action_page.php">
+				          <button type="submit" ><i class="fa fa-search"></i></button>
+						  <input type="text" placeholder="Search.." name="search">
+						  
+						</form>
+				</ul>
+			
+		
+	
+</div>
+<div id="page">
+	
+    
+   
+	<div id="content" style =" height:1000;">
+	
+	<p>Click the button to hide  elements ":</p>
+
+	<button onclick="myFunction()">Hide elements</button>
+	<button onclick="recovery()">recovery elements</button>
+	<div class="MYTE">
+	<h5 >姓名:</h5>
+	<p>李柏儒</p>
+
+	<h5 >畢業學校:</h5>
+	<p>國立高雄科技大學 電機工程系.</p>
+
+	<h5 >自我介紹:</h5>
+	<p>我的名字是李柏儒，個性獨立，喜歡看書。
+我畢業於國立高雄科技大學，在就讀高職和大學時都曾參加桌球社，喜歡與人一起運動，也從運動當中了解與人溝通的重要性。
+在大學時曾多次獲得書卷獎，也曾獲得教育部AIcup比賽之前標獎。
+也曾參與系上網站之設計 有基礎html css之基礎.</p>
+	</div>
+	
+	</div>
+</div>
+
+<div class="footer" background-color="#3C3C3C">
+	<p style="color:white;font-size:17px;" >Author: 2021 Brian Lee<br>
+	email :<a style="color:white;" href=" mailto:halladay2407@gmail.com ">halladay2407@gmail.com</a></p>
+</div>
+
+
+</body>
+</html>
